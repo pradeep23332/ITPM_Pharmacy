@@ -5,7 +5,7 @@
 
   if(isset($_POST['submit'])){
 
-      $dir = 'uploads/';
+      $dir = '../uploads/';
       $image_path = $dir.basename($_FILES['imageFile']['name']);
 
       if(move_uploaded_file($_FILES['imageFile']['tmp_name'],$image_path)){
