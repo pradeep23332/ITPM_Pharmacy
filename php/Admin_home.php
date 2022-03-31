@@ -45,11 +45,12 @@ $user_data = check_login($con);
       <a href="#"><i class="fa-solid fa-users"></i><span>Manage Staff</span></a> 
       <a href="#"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>          
       <a href="#"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>    
-      <a href="#"><i class="fa-solid fa-file-prescription"></i><span>Manage Prescriptions</span></a>   
+      <a href="displayPrescriptions.php"><i class="fa-solid fa-file-prescription"></i><span>Manage Prescriptions</span></a>   
       
     </div>
     <!--sidebar end-->
     <section></section>
+    
     
   </body>
 </html>

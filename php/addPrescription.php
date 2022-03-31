@@ -51,17 +51,39 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="../styles/addPrescriptions.css" />
+
     <title>Add Prescription</title>
   </head>
   <body>
-    <div class="container">
 
-        <h1 class="h3 mb-3 font-weight-normal" style="color:#00aeff">Online Pharmacy Service</h1><hr style="color:#00aeff" />
+  <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">HEALTH CARE</label>
+     
+      <ul>
+        <li><a  href="Homepage.php">Home</a></li>
+        <li><a href="#">About Us</a></li>
+		 <li><a href="#">Contact Us</a></li>
+        <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
+        <li><a href="logout.php">Admin Login</a></li>        
+      </ul>
+    </nav>
+
+
+    <section  style="background: url(../Images/pres4.jpg) no-repeat; height: auto; background-size: cover; padding-top: 80px; padding-bottom: 140px; ">
+    <div >
+    <div  class="container" >
+
+        <h1 class="h3 mb-3 font-weight-normal" style="color:#ffffff">Online Pharmacy Service</h1><hr style="color:#ffffff" />
 
             <form  action="addPrescription.php" method="POST" enctype="multipart/form-data">
 
 
-                    <h5 style="color:#0081d1"><u>Contact Information</u></h5><br>
+                    <h5 style="color:#007da3"><b>Contact Information</b></h5><br>
 
                     <div class="mb-4">
                         <label  class="form-label" for="Email">Enter Your E-mail *</label>
@@ -76,7 +98,7 @@
                          style="width:1000px" id="ContactNumber" pattern="[0-9]{3}-[0-9]{7}" required/>
                     </div>
 
-                    <h5 style="color:#0081d1"><u>Prescription Information</u></h5><br>
+                    <h5 style="color:#007da3"><b>Prescription Information</b></h5><br>
 
 
                     <div class="mb-4">
@@ -129,11 +151,35 @@
                         color: white">Reset Input Fields</button>&nbsp;&nbsp;&nbsp;&nbsp;
 
                     <button type="submit" name="submit" class="btn btn-success">Submit Prescription Details</button>
-
-
-                    
+                              
 
             </form>
-    </div>     
+            </div>  
+
+        </div>
+
+    </section>
+    
+    <div class="footer">
+
+                        <div class="strokeme1">
+                     <b><u>Hours of Operation</b></u></br>
+                     Avaliable from 9AM to 7PM from</br>
+                       Monday to Saturaday</br>
+                         Order will be delivered within 48</br>
+                          hours of orders.</br>
+                      </div>
+      
+      
+                        <div class="strokeme2">
+                         <b><u>Contact Us</b></u></br>
+                          Mobile:071 5689745</br>
+                            Work:031 5688554</br>
+                            Email:healthcare@ph.lk
+                          </div>
+                          
+      </div>                      
+
+
   </body>
 </html>

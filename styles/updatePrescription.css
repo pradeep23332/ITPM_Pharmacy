@@ -1,5 +1,4 @@
 
-
 *{
     padding: 0;
     margin: 0;
@@ -78,7 +77,8 @@
       padding-left: 50px;
     }
     nav ul li a{
-      font-size: 16px;
+      font-size: 15px;
+     
     }
   }
 
