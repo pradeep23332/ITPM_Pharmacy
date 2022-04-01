@@ -111,7 +111,7 @@ if (isset($_POST['submit'])){
              <br/>
 
             <div class="form-group">
-            <label> <b>Brand </b></label><br/>
+            <label> <b>Brand Name </b></label><br/>
             <input type="text" class="form-control" 
             placeholder="Brand Name" name ="brand" required>
             </div>
