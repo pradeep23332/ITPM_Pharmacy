@@ -41,7 +41,7 @@ $user_data = check_login($con);
         <img src="../Images/22.png" class="profile_image" alt="">
         <h4>Admin</h4>
       </center>
-      <a href="#"><i class="fa-solid fa-pills"></i><span>Manage Medicines</span></a> 
+      <a href="Display_medicine.php"><i class="fa-solid fa-pills"></i><span>Manage Medicines</span></a> 
       <a href="#"><i class="fa-solid fa-users"></i><span>Manage Staff</span></a> 
       <a href="#"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>          
       <a href="#"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>    
