@@ -68,6 +68,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/dabbda7d23.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="../styles/updatePrescription.css"/>
 
     <title>Change Delivery Status</title>
