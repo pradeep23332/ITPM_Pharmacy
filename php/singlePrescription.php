@@ -33,9 +33,48 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="../styles/displayPrescriptions.css"/>
+
     <title>Prescription Record Details</title>
   </head>
   <body>
+
+  <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">HEALTH CARE</label>
+     
+      <ul>
+        <li><a  href="Homepage.php">Home</a></li>
+        <li><a href="#">About Us</a></li>
+		 <li><a href="#">Contact Us</a></li>
+        <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
+        <li><a href="logout.php">Log Out</a></li>        
+      </ul>
+    </nav>
+
+    <!--sidebar start-->
+    <div class="sidebar">
+      <center>
+        <img src="../Images/22.png" class="profile_image" alt="">
+        <h4>Admin</h4>
+      </center>
+      <a href="#"><i class="fa-solid fa-pills"></i><span>Manage Medicines</span></a> 
+      <a href="#"><i class="fa-solid fa-users"></i><span>Manage Staff</span></a> 
+      <a href="#"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>          
+      <a href="#"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>    
+      <a href="#"><i class="fa-solid fa-file-prescription"></i><span>Manage Prescriptions</span></a>   
+      
+    </div>
+    <!--sidebar end-->
+
+
+
+      <section>
+
+      <div style=" background: url(../Images/pres3.jpg) no-repeat; background-size: cover; padding-top:90px;" >
 
         <div class="container" style="marginTop:20px">
             <h4 style="color:#00aeff">Prescription Record Details</h4>
@@ -101,6 +140,10 @@
             </dl>
 
         </div>
+
+        </div>
+
+      </section>
 
 
 

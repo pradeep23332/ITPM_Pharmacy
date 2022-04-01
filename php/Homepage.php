@@ -21,8 +21,8 @@
       <ul>
         <li><a class="active" href="#">Home</a></li>
         <li><a href="#">About Us</a></li>
-		 <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Online Pharamacy Services</a></li>
+		    <li><a href="#">Contact Us</a></li>
+        <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
         <li><a href="login.php">Admin Login</a></li>
       </ul>
     </nav>
