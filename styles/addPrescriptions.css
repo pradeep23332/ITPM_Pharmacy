@@ -263,16 +263,14 @@ section{
 
 .transbox4{
 
-	width: 100%;
-	font-family: Arial;
-	height: 100%;
-	opacity: 0.95;
-	background-color:#ffffff;
-  margin: 8px;
-   
-	
-
-
+  margin: 280px;
+  width: 700px;
+  font-family: Arial;
+  height: 290px;
+  opacity: 0.7;
+  background-color:#ffffff; 
+  border: 1px solid black;
+  padding:79px;
 }
 
 .transbox5{
@@ -285,5 +283,7 @@ section{
   margin: 8px;
 
 }
+
+
 
 

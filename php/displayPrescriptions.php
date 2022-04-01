@@ -71,11 +71,11 @@
 
 
             <section >
-            <div style=" background: url(../Images/pres3.jpg) no-repeat; background-size: cover; padding-top:60px;" >
+            <div style=" background: url(../Images/pres3.jpg) no-repeat; background-size: cover; padding-top:60px; " >
 
                 <div>
                     <div><br/>
-                            <h4 style="color:#00bab7; padding-left:8px;" ><b>All Prescription Records</b></h4>
+                            <h4 style="color:#03f8fc; padding-left:8px;" ><b>All Prescription Records</b></h4>
                         
                     </div>
                     <div align="right" >
@@ -92,7 +92,7 @@
                         </form>
                     </div>
                 </div>
-                <hr style="color:#00bab7;"/>
+                <hr style="color:#03f8fc;"/>
             
                 <br/><br/>
                 
@@ -188,7 +188,7 @@
 
                 
 
-               <h5 style="color:#00b395">No. Of Prescription Records: <?php echo $no;?></h5> 
+               <!--<h5 style="color:#00b395">No. Of Prescription Records: <?php //echo $no;?></h5> -->
                </div><br><br>
 
                 <form action="prescriptionExcel.php" method="POST">

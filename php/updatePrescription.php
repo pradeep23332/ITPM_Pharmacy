@@ -200,10 +200,21 @@
                     </select>     
                     </div>
 
-                    <button type="reset" name="reset" class="btn btn-light" style="background-color:#ff0059; 
-                    color: white">Reset Input Fields</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="reset" name="rest" id="resetToPending"  class="btn btn-light" style="background-color:#ff0059; 
+                    color: white" >Reset Input Fields</button>&nbsp;&nbsp;&nbsp;&nbsp;
 
                     <button type="submit" name="submit" class="btn btn-success">Change Delivery Status</button>
+
+                   <!-- <script>
+
+                      document.getElementById("resetToPending").addEventListener("click", changeDeliveryStatus);
+
+                      function changeDeliveryStatus() {
+                          document.getElementById("AssignedDeliveryPersonName").value = "Pending...";
+                      }
+                      </script>-->
+
+                   
                     
 
             </form>
@@ -212,5 +223,11 @@
 </div>
     
 </section>
+
+                     
+
+
+
+
   </body>
 </html>
