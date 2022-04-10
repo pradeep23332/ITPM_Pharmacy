@@ -20,6 +20,7 @@ $user_data = check_login($con);
       
   </head>
   <body>
+  <!--This is admin home page-->
     <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
