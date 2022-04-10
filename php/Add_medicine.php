@@ -48,6 +48,7 @@ if (isset($_POST['submit'])){
   </head>
     
     <body>
+	<!--vav start-->
 	 <nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
@@ -78,6 +79,8 @@ if (isset($_POST['submit'])){
     </div>
     <!--sidebar end-->
     <section></section>
+	
+	<!--nav close-->
         
 
             <ul><h1>ADD MEDICINE DETAILS </h1></ul>
