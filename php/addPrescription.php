@@ -75,7 +75,7 @@
 
 
     <section  style="background: url(../Images/pres4.jpg) no-repeat; height: auto; background-size: cover; padding-top: 80px; padding-bottom: 140px; ">
-    <div >
+    <div class="transbox5" >
     <div  class="container" >
 
         <h1 class="h3 mb-3 font-weight-normal" style="color:#ffffff">Online Pharmacy Service</h1><hr style="color:#ffffff" />
@@ -83,74 +83,73 @@
             <form  action="addPrescription.php" method="POST" enctype="multipart/form-data">
 
 
-                    <h5 style="color:#007da3"><b>Contact Information</b></h5><br>
+                    <h5 style="color:#00eeff"><b>Contact Information</b></h5><br>
 
                     <div class="mb-4">
-                        <label  class="form-label" for="Email">Enter Your E-mail *</label>
+                        <label  class="form-label" for="Email" style="color:#ffffff">Enter Your E-mail *</label>
                         <input type="email" class="form-control" name="InputEmail"
                          placeholder="Enter E-mail" style="width:1000px" id="Email"
                          pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)" required/>
                     </div>
 
                     <div class="mb-4">
-                        <label  class="form-label" for="ContactNumber">Enter Your Contact Number (0xx-yyyyyyy) *</label>
+                        <label  class="form-label" for="ContactNumber" style="color:#ffffff">Enter Your Contact Number (0xx-yyyyyyy) *</label>
                         <input type="text" class="form-control"  name="InputContactNumber" placeholder="Enter Contact Number"
                          style="width:1000px" id="ContactNumber" pattern="[0-9]{3}-[0-9]{7}" required/>
                     </div>
 
-                    <h5 style="color:#007da3"><b>Prescription Information</b></h5><br>
+                    <h5 style="color:#00eeff"><b>Prescription Information</b></h5><br>
 
 
                     <div class="mb-4">
-                        <label class="form-label" for="PatientName">Enter Patient Name *</label>
+                        <label class="form-label" for="PatientName" style="color:#ffffff">Enter Patient Name *</label>
                         <input type="text" class="form-control"  name="InputPatientName" placeholder="Enter Patient Name" style="width:1000px" id="PatientName" required/>
                     </div>
 
                     <div class="mb-4">
-                        <label  class="form-label" for="PatientAge">Enter Patient Age *</label>
+                        <label  class="form-label" for="PatientAge" style="color:#ffffff">Enter Patient Age *</label>
                         <input type="number" class="form-control"  name="InputPatientAge" placeholder="Enter Patient Age" style="width:1000px" id="PatientAge" required min="0"/>
                     </div>
 
 
                     <div class="mb-4">
-                        <label  class="form-label" for="Gender">Select Gender *</label>
+                        <label  class="form-label" for="Gender" style="color:#ffffff">Select Gender *</label>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="Gender" id="Male" value="Male">
-                                <label class="form-check-label" for="Male">Male</label>
+                                <label class="form-check-label" for="Male" style="color:#ffffff">Male</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="Gender" id="Female" value="Female">
-                                <label class="form-check-label" for="Female">Female</label>
+                                <label class="form-check-label" for="Female" style="color:#ffffff">Female</label>
                             </div>
                     </div>
 
                     
 
                     <div class="mb-4">
-                        <label  class="form-label" for="OrderDate">Date Of Request *</label>
+                        <label  class="form-label" for="OrderDate" style="color:#ffffff">Date Of Request *</label>
                         <input type="date" class="form-control"  name="InputOrderDate" style="width:350px"
                         value="<?php echo date('Y-m-d');?>" id="OrderDate" required/>
                     </div>
 
                     <div class="mb-4">
-                        <label  class="form-label" for="DeliveryAddress">Enter Delivery Address *</label>
+                        <label  class="form-label" for="DeliveryAddress" style="color:#ffffff">Enter Delivery Address *</label>
                         <input type="text" class="form-control"  name="InputDeliveryAddress" placeholder="Enter Delivery Address" style="width:1000px" id="DeliveryAddress" required/>
                     </div>
 
                     <div class="mb-4">
-                        <label  class="form-label" for="comments">Enter Comments (Ex: Symptoms Of The Sickness) *</label>
+                        <label  class="form-label" for="comments" style="color:#ffffff">Enter Comments (Ex: Symptoms Of The Sickness) *</label>
                         <textarea type="text" class="form-control"  name="InputComments" placeholder="Enter Comments" style="width:1000px"  id="comments" required></textarea>
                     </div>
 
                     <div class="mb-4">
-                        <label  class="form-label" for="prescription">Upload Prescription Image *</label>
+                        <label  class="form-label" for="prescription" style="color:#ffffff">Upload Prescription Image *</label>
                         <input type="file"  name="imageFile" class="form-control" style="width:350px"  id="prescription" required/>
                     </div>
 
-                    <button type="reset" name="reset" class="btn btn-light" style="background-color:#ff0059; 
-                        color: white">Reset Input Fields</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="reset" name="reset" class="btn btn-secondary" >Reset Input Fields</button>&nbsp;&nbsp;&nbsp;&nbsp;
 
-                    <button type="submit" name="submit" class="btn btn-success">Submit Prescription Details</button>
+                    <button type="submit" name="submit" class="btn btn-primary">Submit Prescription Details</button>
                               
 
             </form>

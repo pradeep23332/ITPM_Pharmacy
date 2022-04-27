@@ -38,8 +38,14 @@
     <link rel="stylesheet" href="../styles/displayPrescriptions.css"/>
 
     <title>Display All Prescriptions</title>
+
+
+    
+
     
   </head>
+
+  
   <body>
   <nav>
       <input type="checkbox" id="check">
@@ -73,11 +79,11 @@
 
 
             <section >
-            <div style=" background: url(../Images/pres3.jpg) no-repeat; background-size: cover; padding-top:60px; " >
+            <div style=" background: url(../Images/pres3.jpg) no-repeat; background-size: cover; padding-top:60px; padding-bottom:240px; " >
 
                 <div>
                     <div><br/>
-                            <h4 style="color:#03f8fc; padding-left:8px;" ><b>All Prescription Records</b></h4>
+                            <h4 style="color:#00a2ff; padding-left:8px;" ><b>All Prescription Records</b></h4>
                         
                     </div>
                     <div align="right" >
