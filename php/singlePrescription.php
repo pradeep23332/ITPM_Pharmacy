@@ -79,10 +79,11 @@
       <div style=" background: url(../Images/pres3.jpg) no-repeat; background-size: cover; padding-top:90px;" >
 
         <div class="container" style="marginTop:20px">
+        
             <h4 style="color:#00aeff">Prescription Record Details</h4>
             <hr style="color:#00aeff"/>
 
-            <h5 style="color:#0081d1"><u>Contact Information</u></h5><br>
+            <h5 style="color:#0081d1"><b>Contact Information</b></h5><br>
 
             <dl class="row">
 
@@ -96,7 +97,7 @@
 
             </dl>
 
-            <h5 style="color:#0081d1"><u>Prescription Information</u></h5><br>
+            <h5 style="color:#0081d1"><b>Prescription Information</b></h5><br>
 
             <dl class="row">
                 <dt class="col-sm-3">Prescription ID</dt>

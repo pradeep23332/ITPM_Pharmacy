@@ -47,6 +47,7 @@
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+    
   }
 
   nav ul li a:hover{
@@ -275,11 +276,11 @@ section{
 
 .transbox5{
 
-	width: 700px;
+	width: 1090px;
 	font-family: Arial;
 	height: auto;
-	opacity: 0.95;
-	background-color:#ffffff;
+  padding: 15px;
+	background-color:#417a9b;
   margin: 8px;
 
 }
