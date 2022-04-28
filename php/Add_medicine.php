@@ -38,7 +38,7 @@ if (isset($_POST['submit'])){
     
     <style>
      .container{
-      background-color:;
+      background-color:none;
       
      }
     
@@ -91,7 +91,8 @@ if (isset($_POST['submit'])){
             <div class="form-group">
             <label><b> Medicine Name</b> </label><br/>
             <input type="text" class="form-control" 
-            placeholder="Enter Medicine Name" name ="name" required>
+            placeholder="Enter Medicine Name" name ="name" 
+             required>
             </div><br/>
 
             <div class="form-group">
@@ -116,7 +117,7 @@ if (isset($_POST['submit'])){
             <div class="form-group">
             <label> <b>Brand Name </b></label><br/>
             <input type="text" class="form-control" 
-            placeholder="Brand Name" name ="brand" required>
+            placeholder="Brand Name" name ="brand"  required>
             </div>
             <br/>
 
