@@ -100,25 +100,25 @@ if (isset($_POST['submit'])){
         <form method ="post">
               <br/>
            <div class="form-group">
-            <label> Medicine Name </label><br/>
+            <label> <b>Medicine Name </b></label><br/>
             <input type="text" class="form-control" 
             placeholder="Enter Medicine Name" name ="name" value=<?php echo $name;?> >
             </div><br/>
 
             <div class="form-group">
-            <label> Quantity </label><br/>
+            <label><b> Quantity </b></label><br/>
             <input type="text" class="form-control" 
             placeholder="Enter Quentity" name ="quantity" value=<?php echo $quantity;?>>
             </div><br/>
 
             <div class="form-group">
-            <label>Manufacture Date  </label><br/>
+            <label><b>Manufacture Date </b> </label><br/>
             <input type="date" class="form-control"name="manufacture" value=<?php echo $manufacture;?>>
            </div>
            <br/>
 
            <div class="form-group">
-            <label>Expiry Date  </label><br/>
+            <label><b>Expiry Date</b>  </label><br/>
             <input type="date" class="form-control"name="expiry" value=<?php echo $expiry;?> >
             </div>
            
@@ -126,7 +126,7 @@ if (isset($_POST['submit'])){
           <br/>
 
             <div class="form-group">
-            <label> Brand </label><br/>
+            <label> <b>Brand </b></label><br/>
             <input type="text" class="form-control" 
             placeholder="Brand Name" name ="brand" value=<?php echo $brand;?>>
             </div>
@@ -134,7 +134,7 @@ if (isset($_POST['submit'])){
 
             
             <div class="form-group ">
-            <label> Medicine Type </label><br/>  
+            <label> <b>Medicine Type </b></label><br/>  
                <select class="form-select" name="type" value=<?php echo $type;?>>
                   
                   <option selected>Choose Type</option>
