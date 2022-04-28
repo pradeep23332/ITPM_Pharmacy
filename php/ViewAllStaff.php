@@ -32,14 +32,21 @@ function filterTable($query){
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
     <link rel="stylesheet" href="../css/viewallstaff.css">
 
+    <style>
+    .mt-5 {
+        margin-top: 7 !important;
+    }
+
+    .mt-5 {
+        margin-top: 7 !important;
+    }
+    </style>
 </head>
 
 <body>
 
-    <!--vav start-->
     <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -48,7 +55,7 @@ function filterTable($query){
         <label class="logo">HEALTH CARE</label>
 
         <ul>
-            <li><a class="active" href="#">Home</a></li>
+            <li><a class="active" href="Homepage.php">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="ContactUs.php">Contact Us</a></li>
             <li><a href="#">Online Pharamacy Services</a></li>
@@ -69,23 +76,16 @@ function filterTable($query){
                 Prescriptions</span></a>
 
     </div>
-    <!--sidebar end-->
     <section></section>
-
-    <!--nav close-->
-
-
-
     <ul>
         <h1 style="text-align:center;"><b>STAFF MEMBERS</b></h1>
     </ul>
 
-    <br>
+
     <div class="container" style="padding-left:200px;">
-        <!--<div class="container">-->
-        <div class="rightdiv col-md-7 mt-7 mb-5 mr-0 ">
-            <form method=" POST">
-                <div class="input-group mb-3 ml-1">
+        <div class="col-md-7 mt-5 mb-5 float-right">
+            <form method="POST">
+                <div class="input-group mb-3">
                     <input type="text" name="valueToSearch"
                         value="<?php if(isset($_GET['search'])) {echo $_GET['search'];}?>" class="form-control"
                         placeholder="Search">
@@ -93,12 +93,9 @@ function filterTable($query){
                 </div>
             </form>
         </div>
-        <!--<div class="container float-left">-->
-        <div class="leftdiv col-md-7 mt-7 mb-5 mr-0">
-            <button class="btn btn-primary"><a href="AddStaff.php" class=" btn_link text-light">Add Staff
-                    Member</a></button>
-        </div>
-        <!--</div>-->
+
+        <button class="btn btn-primary mt-5 mb-5"><a href="AddStaff.php" class="text-light">Add Staff
+                Member</a></button>
 
         <table class="center">
             <thead style="background: 	#0d6efd; color:white;">
@@ -108,7 +105,7 @@ function filterTable($query){
                     <th scope="col">Email</th>
                     <th scope="col">Home town</th>
                     <th scope="col">Phone</th>
-                    <th scope="col">Position</th>
+                    <th scope="col">Psition</th>
                     <th scope="col">Operations</th>
                 </tr>
 
@@ -144,8 +141,7 @@ function filterTable($query){
             </tbody>
         </table>
 
-        <button class="btn btn-primary mt-5 mb-5 float-right"><a href="StaffReport.php"
-                class="btn_link text-light">Generate
+        <button class="btn btn-primary mt-5 mb-5 float-right"><a href="StaffReport.php" class="text-light">Generate
                 Report
                 Member</a></button>
 
