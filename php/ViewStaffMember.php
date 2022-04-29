@@ -89,8 +89,8 @@ if(isset($_POST['update'])){
         </center>
         <a href="Display_medicine.php"><i class="fa-solid fa-pills"></i><span>Manage Medicines</span></a>
         <a href="ViewAllStaff.php"><i class="fa-solid fa-users"></i><span>Manage Staff</span></a>
-        <a href="#"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>
-        <a href="#"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>
+        <a href="displaySupplier.php"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>
+        <a href="displaySales.php"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>
         <a href="displayPrescriptions.php"><i class="fa-solid fa-file-prescription"></i><span>Manage
                 Prescriptions</span></a>
 

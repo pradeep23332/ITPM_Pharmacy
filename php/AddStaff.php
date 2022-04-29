@@ -26,58 +26,58 @@ function clean_text($string){
 
 if(isset($_POST['submit'])){
     if(empty($_POST['name'])){
-        $error .= '<p><label class="text-danger">Please Enter your Name</label></p>';
+        $error .= '<p><label class="text-danger" style="font-weight: bold;">Please Enter your Name</label></p>';
     }
     else{
         $name = clean_text($_POST["name"]);
         if(!preg_match("/^[a-zA-Z ]*$/",$name))
         {
-            $error .= '<p><label class="text-danger">Only letters and white space allowed</label></p>';
+            $error .= '<p><label class="text-danger" style="font-weight: bold;">Only letters and white space allowed</label></p>';
         }
     }
 
     if(empty($_POST['email'])){
-        $error .= '<p><label class="text-danger">Please Enter your Email</label></p>';
+        $error .= '<p><label class="text-danger" style="font-weight: bold;">Please Enter your Email</label></p>';
     }
     else{
         $email = clean_text($_POST["email"]);
         if(!filter_var($email,FILTER_VALIDATE_EMAIL))
         {
-            $error .= '<p><label class="text-danger">Invalid email format</label></p>';
+            $error .= '<p><label class="text-danger" style="font-weight: bold;" >Invalid email format</label></p>';
         }
     }
 
     if(empty($_POST['hometown'])){
-        $error .= '<p><label class="text-danger">Please Enter your Home town</label></p>';
+        $error .= '<p><label class="text-danger" style="font-weight: bold;">Please Enter your Home town</label></p>';
     }
     else{
         $hometown = clean_text($_POST["hometown"]);
         if(!preg_match("/^[a-zA-Z ]*$/",$hometown))
         {
-            $error .= '<p><label class="text-danger">Only letters and white space allowed</label></p>';
+            $error .= '<p><label class="text-danger" style="font-weight: bold;">Only letters and white space allowed</label></p>';
         }
     }
 
     if(empty($_POST['phone'])){
-        $error .= '<p><label class="text-danger">Please Enter your Phone number</label></p>';
+        $error .= '<p><label class="text-danger" style="font-weight: bold;">Please Enter your Phone number</label></p>';
     }
     else{
         $phone = $_POST['phone'];
         if(!preg_match("/^([0-9]{10})$/",$phone))
         {
-            $error .= '<p><label class="text-danger">Invalid mobile number</label></p>';
+            $error .= '<p><label class="text-danger" style="font-weight: bold;">Invalid mobile number</label></p>';
         }
     }
     
 
     if(empty($_POST['position'])){
-        $error .= '<p><label class="text-danger">Please Select your position number</label></p>';
+        $error .= '<p><label class="text-danger" style=font-weight:bold;">Please Select your position</label></p>';
     }
     else{
         $position = clean_text($_POST["position"]);
         if(!preg_match("/^[a-zA-Z ]*$/",$position))
         {
-            $error .= '<p><label class="text-danger">Only letters and white space allowed</label></p>';
+            $error .= '<p><label class="text-danger" style="font-weight:bold;">Only letters and white space allowed</label></p>';
         }
     }
 
@@ -150,7 +150,7 @@ if(isset($_POST['submit'])){
         <label class="logo">HEALTH CARE</label>
 
         <ul>
-            <li><a class="active" href="#">Home</a></li>
+            <li><a class="active" href="Homepage.php">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="ContactUs.php">Contact Us</a></li>
             <li><a href="#">Online Pharamacy Services</a></li>
@@ -165,8 +165,8 @@ if(isset($_POST['submit'])){
         </center>
         <a href="Display_medicine.php"><i class="fa-solid fa-pills"></i><span>Manage Medicines</span></a>
         <a href="ViewAllStaff.php"><i class="fa-solid fa-users"></i><span>Manage Staff</span></a>
-        <a href="#"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>
-        <a href="#"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>
+        <a href="displaySupplier.php"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>
+        <a href="displaySales.php"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>
         <a href="displayPrescriptions.php"><i class="fa-solid fa-file-prescription"></i><span>Manage
                 Prescriptions</span></a>
 
