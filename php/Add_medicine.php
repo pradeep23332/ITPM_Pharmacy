@@ -120,7 +120,7 @@ if (isset($_POST['submit'])){
             placeholder="Brand Name" name ="brand"  required>
             </div>
             <br/>
-
+                          
             
             <div class="form-group ">
             <label> <b>Medicine Type<b> </label><br/>  
