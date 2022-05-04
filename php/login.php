@@ -57,7 +57,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
         <li><a style="text-decoration: none" class="text-light" href="#">About Us</a></li>
 		 <li><a style="text-decoration: none" class="text-light" href="#">Contact Us</a></li>
         <li><a style="text-decoration: none" class="text-light" href="#">Online Pharamacy Services</a></li>
-        <li><a style="text-decoration: none" class="text-light" href="login.php">Admin Login</a></li>
+        
       </ul>
     </nav>
 	
