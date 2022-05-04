@@ -113,9 +113,19 @@
 h1{
    margin-left:250px;
    margin-top:-500px;
+   color: rgb(236, 229, 229);
+   text-align: center;
 }
 .table{
-	margin-left:80px;
+	
+  background-color: #f1e209;
+  opacity: 0.8;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
 }
 
  .btn btn-primary my-5{
@@ -239,4 +249,8 @@ label #sidebar_btn:hover{
 
 #check{
   display: none;
+}
+
+a{
+  text-decoration: none;
 }
