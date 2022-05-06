@@ -19,12 +19,12 @@
       <label class="logo">HEALTH CARE</label>
      
       <ul>
-      
-        <li><a class="active" href="Homepage.php">Home</a></li>
-        <li><a href="Aboutus.php">About Us</a></li>
-		    <li><a href="#">Contact Us</a></li>
-        <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
+        <li><a href="Homepage.php">Home</a></li>
+        <li><a class="active" href="#">About Us</a></li>
         
+		    <li><a href="ContactUs.php">Contact Us</a></li>
+        <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
+       
       </ul>
     </nav>
     

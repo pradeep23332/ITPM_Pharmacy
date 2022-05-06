@@ -65,16 +65,16 @@
       <label class="logo">HEALTH CARE</label>
      
       <ul>
-        <li><a  href="Homepage.php">Home</a></li>
-        <li><a href="#">About Us</a></li>
-		 <li><a href="#">Contact Us</a></li>
-        <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
+        <li><a href="Homepage.php">Home</a></li>
+        <li><a href="Aboutus.php">About Us</a></li>
+        <li><a href="ContactUs.php">contact us</a></li>
+        <li><a class="active" href="#">online pharmacy services</a></li>
            
       </ul>
     </nav>
 
 
-    <section  style="background: url(../Images/pres4.jpg) no-repeat; height: auto; background-size: cover; padding-top: 80px; padding-bottom: 140px; ">
+    <section  style="background: url(../Images/pres4.jpg) no-repeat; height: auto; background-size: cover; padding-top: 25px; padding-bottom: 140px; ">
     <div class="transbox5" >
     <div  class="container" >
 

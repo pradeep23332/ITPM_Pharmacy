@@ -28,10 +28,10 @@ if($_SERVER['REQUEST_METHOD']=="POST")
           }
          }
         }
-        echo "Wrong Username Or Password !" ;
+        echo  '<script>alert ("Wrong Username Or Password !")</script>' ;
     }else
     {
-       echo "Wrong Username Or Password ! !" ;
+       echo  '<script>alert ("Wrong Username Or Password !")</script>' ;
     }
 
 }
@@ -53,10 +53,10 @@ if($_SERVER['REQUEST_METHOD']=="POST")
       <label class="logo">HEALTH CARE</label>
      
       <ul>
-        <li><a style="text-decoration: none" class="text-light" href="#">Home</a></li>
-        <li><a style="text-decoration: none" class="text-light" href="#">About Us</a></li>
-		 <li><a style="text-decoration: none" class="text-light" href="#">Contact Us</a></li>
-        <li><a style="text-decoration: none" class="text-light" href="#">Online Pharamacy Services</a></li>
+        <li><a style="text-decoration: none" class="text-light" href="Homepage.php">Home</a></li>
+        <li><a style="text-decoration: none" class="text-light" href="Aboutus.php">About Us</a></li>
+		 <li><a style="text-decoration: none" class="text-light" href="ContactUs.php">Contact Us</a></li>
+        <li><a style="text-decoration: none" class="text-light" href="addPrescription.php">Online Pharamacy Services</a></li>
         
       </ul>
     </nav>
@@ -68,11 +68,17 @@ if($_SERVER['REQUEST_METHOD']=="POST")
             background-color: gray;
             margin: auto;
             width: 500px;
+            opacity: 0.9;
 			height:350px;
             padding: 20px;
 			margin-top:150px;
-		
+      
         }
+        body{
+          background: url(../Images/staff/staff13.jpg) no-repeat;
+    background-size: cover;
+        }
+       
 
     </style>
 
@@ -80,7 +86,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
         <form method="post">
             <div style="font-size: 20px; 
                         margin: 10px;
-                        color:white;" align="center">Login</div>
+                        color:white;" align="center">Admin Login</div>
             <lable><b>User Name</b></lable>
             <input id="Username" class="form-control" type="text" name="user_name"><br><br>
 			<lable><b>Password</b></lable>

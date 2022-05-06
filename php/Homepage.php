@@ -34,7 +34,7 @@
       
         <li><a class="active" href="#">Home</a></li>
         <li><a href="Aboutus.php">About Us</a></li>
-		    <li><a href="#">Contact Us</a></li>
+		    <li><a href="ContactUs.php">Contact Us</a></li>
         <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
         
       </ul>
@@ -278,6 +278,7 @@
             <li><i class = "fab fa-twitter"></i></li>
             <li><i class = "fab fa-linkedin"></i></li>
             <li><i class = "fab fa-instagram"></i></li>
+            <li><i class = "fab fa-user-gear"></i></li>
           </ul>
       </div>
       
