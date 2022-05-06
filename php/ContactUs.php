@@ -156,29 +156,15 @@ if(isset($_POST["submit"])){
             <li><a href="logout.php">Log Out</a></li>
         </ul>
     </nav>
-    <!--sidebar start-->
-    <div class="sidebar">
-        <center>
-            <img src="../Images/22.png" class="profile_image" alt="">
-            <h4>Admin</h4>
-        </center>
-        <a href="Display_medicine.php"><i class="fa-solid fa-pills"></i><span>Manage Medicines</span></a>
-        <a href="ViewAllStaff.php"><i class="fa-solid fa-users"></i><span>Manage Staff</span></a>
-        <a href="displaySupplier.php"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>
-        <a href="displaySales.php"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>
-        <a href="displayPrescriptions.php"><i class="fa-solid fa-file-prescription"></i><span>Manage
-                Prescriptions</span></a>
 
-    </div>
-    <!--sidebar end-->
     <section></section>
 
     <!--nav close-->
 
-    <div class="container my-5" style="padding-left:250px;">
+    <div class="container my-5">
 
         <ul>
-            <h1><b>SEND YOUR QUERY...</b></h1>
+            <h1 style="padding-left:100px;"><b>SEND YOUR QUERY...</b></h1>
         </ul>
         <?php echo $error; ?>
         <form method="post">
