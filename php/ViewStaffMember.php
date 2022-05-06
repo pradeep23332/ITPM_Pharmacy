@@ -75,9 +75,9 @@ if(isset($_POST['update'])){
 
         <ul>
             <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="Aboutus.php">About Us</a></li>
             <li><a href="ContactUs.php">Contact Us</a></li>
-            <li><a href="#">Online Pharamacy Services</a></li>
+            <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
             <li><a href="logout.php">Log Out</a></li>
         </ul>
     </nav>
