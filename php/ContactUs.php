@@ -150,9 +150,9 @@ if(isset($_POST["submit"])){
 
         <ul>
             <li><a class="active" href="Homepage.php">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="Aboutus.php">About Us</a></li>
             <li><a href="ContactUs.php">Contact Us</a></li>
-            <li><a href="#">Online Pharamacy Services</a></li>
+            <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
             <li><a href="logout.php">Log Out</a></li>
         </ul>
     </nav>
@@ -226,7 +226,7 @@ if(isset($_POST["submit"])){
 
 
 
-    <div class="container my-5" style="padding-left:250px;">
+    <div class="container my-5" style="padding-left:250px; margin-bottom: 100px;">
 
         <h1 style="text-align:center; margin-top:50px; text-align:left; margin-bottom: 45px;"><b>CONTACT US</b></h1>
 
@@ -259,6 +259,36 @@ if(isset($_POST["submit"])){
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <label class="contactlink" style="color:#0073cf;">0701001000 <span style="color:#0073cf;">&#47;</span>
                 0702002000</label>
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <div class="strokeme1">
+            <b><u>Hours of Operation</b></u></br>
+            Avaliable from 9AM to 7PM from</br>
+            Monday to Saturaday</br>
+            Order will be delivered within 48</br>
+            hours of orders.</br>
+        </div>
+
+        <div class="strokeme3">
+
+            <ul class="icons">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+        </div>
+
+
+        <div class="strokeme2">
+            <b><u>Contact Us</b></u></br>
+            Mobile:071 5689745</br>
+            Work:031 5688554</br>
+            Email:healthcare@ph.lk
         </div>
 
     </div>

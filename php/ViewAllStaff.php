@@ -56,9 +56,9 @@ function filterTable($query){
 
         <ul>
             <li><a class="active" href="Homepage.php">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="Aboutus.php">About Us</a></li>
             <li><a href="ContactUs.php">Contact Us</a></li>
-            <li><a href="#">Online Pharamacy Services</a></li>
+            <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
             <li><a href="logout.php">Log Out</a></li>
         </ul>
     </nav>
@@ -142,8 +142,7 @@ function filterTable($query){
         </table>
 
         <button class="btn btn-primary mt-5 mb-5 float-right"><a href="StaffReport.php" class="text-light">Generate
-                Report
-                Member</a></button>
+                Report</a></button>
 
     </div>
 </body>
