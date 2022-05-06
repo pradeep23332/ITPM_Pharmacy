@@ -149,11 +149,12 @@ if(isset($_POST["submit"])){
         <label class="logo">HEALTH CARE</label>
 
         <ul>
-            <li><a class="active" href="Homepage.php">Home</a></li>
-            <li><a href="Aboutus.php">About Us</a></li>
-            <li><a href="ContactUs.php">Contact Us</a></li>
-            <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
-            <li><a href="logout.php">Log Out</a></li>
+        <li><a href="Homepage.php">Home</a></li>
+        <li><a href="Aboutus.php">About Us</a></li>
+        <li><a class="active" href="#">contact us</a></li>
+        <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
+       
+            
         </ul>
     </nav>
 
@@ -259,23 +260,15 @@ if(isset($_POST["submit"])){
             hours of orders.</br>
         </div>
 
-        <div class="strokeme3">
-
-            <ul class="icons">
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-linkedin"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-            </ul>
-        </div>
-
-
         <div class="strokeme2">
-            <b><u>Contact Us</b></u></br>
-            Mobile:071 5689745</br>
-            Work:031 5688554</br>
-            Email:healthcare@ph.lk
-        </div>
+        <b><u>Contact Us</b></u></br>
+        Mobile:071 5689745</br>
+        Work:031 5688554</br>
+        Email:healthcare@ph.lk
+      </div>
+
+
+        
 
     </div>
 

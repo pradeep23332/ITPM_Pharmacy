@@ -50,11 +50,11 @@
       <label class="logo">HEALTH CARE</label>
      
       <ul>
-        <li><a  href="Homepage.php">Home</a></li>
-        <li><a href="#">About Us</a></li>
-		<li><a href="#">Contact Us</a></li>
+      <li><a href="Homepage.php">home</a></li>
+        <li><a href="Aboutus.php">About Us</a></li>
+		    <li><a href="ContactUs.php">Contact Us</a></li>
         <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
-        <li><a href="logout.php">Log Out</a></li>        
+        <li><a class="active" href="login.php">Log Out</a></li>   
       </ul>
     </nav>
      <!--sidebar start-->
@@ -63,11 +63,11 @@
         <img src="../Images/22.png" class="profile_image" alt="">
         <h4>Admin</h4>
       </center>
-      <a href="#"><i class="fa-solid fa-pills"></i><span>Manage Medicines</span></a> 
-      <a href="#"><i class="fa-solid fa-users"></i><span>Manage Staff</span></a> 
-      <a href="#"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>          
-      <a href="#"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>    
-      <a href="#"><i class="fa-solid fa-file-prescription"></i><span>Manage Prescriptions</span></a>   
+      <a href="Display_medicine.php"><i class="fa-solid fa-pills"></i><span>Manage Medicines</span></a> 
+      <a href="ViewAllStaff.php"><i class="fa-solid fa-users"></i><span>Manage Staff</span></a> 
+      <a href="displaySupplier.php"><i class="fa-solid fa-people-roof"></i><span>Manage Suppliers</span></a>          
+      <a href="displaySales.php"><i class="fa-solid fa-chart-bar"></i><span>Manage Sales</span></a>    
+      <a href="displayPrescriptions.php"><i class="fa-solid fa-file-prescription"></i><span>Manage Prescriptions</span></a>   
       
     </div>
     <!--sidebar end-->
