@@ -65,11 +65,11 @@ if(isset($_POST['submit'])){
       <label class="logo">HEALTH CARE</label>
      
       <ul>
-      <li><a href="Homepage.php">home</a></li>
-        <li><a href="Aboutus.php">About Us</a></li>
-		    <li><a href="ContactUs.php">Contact Us</a></li>
+        <li><a  href="Homepage.php">Home</a></li>
+        <li><a href="#">About Us</a></li>
+		<li><a href="#">Contact Us</a></li>
         <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
-        <li><a class="active" href="login.php">Log Out</a></li>         
+        <li><a href="logout.php">Log Out</a></li>        
       </ul>
     </nav>
      <!--sidebar start-->
@@ -97,8 +97,8 @@ if(isset($_POST['submit'])){
   <div class="form-group">
     <label>Name</label>
     <input type="text" class="form-control" 
-    name="name"  
-    value=<?php echo $name;?>>
+    name="name" pattern="[A-Za-z]+"
+    value=<?php echo $name;?> required/>
 
   </div>
 
@@ -106,21 +106,21 @@ if(isset($_POST['submit'])){
     <label>Pharmacist Name</label>
     <input type="text" class="form-control" 
     name="pharmacist"  
-    value=<?php echo $pharmacist;?>>
+    value=<?php echo $pharmacist;?> required/>
 </div>
 
 <div class="form-group">
     <label>Item Description</label>
     <input type="text" class="form-control" 
     name="description"
-    value=<?php echo $description;?>>
+    value=<?php echo $description;?> required/>
 </div>
 
 <div class="form-group">
     <label>Issued Date</label>
     <input type="date" class="form-control" 
     name="issueddate"
-    value=<?php echo $issueddate;?>>
+    value=<?php echo $issueddate;?> required/>
 </div>
 
 <div class="form-group">
@@ -134,7 +134,7 @@ if(isset($_POST['submit'])){
     <label>Amount</label>
     <input type="text" class="form-control" 
     name="amount"
-    value=<?php echo $amount;?>>
+    value=<?php echo $amount;?> required/>
 </div>
 
 
