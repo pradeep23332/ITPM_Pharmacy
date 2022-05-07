@@ -48,11 +48,11 @@ if (isset($_POST['submit'])){
       <label class="logo">HEALTH CARE</label>
      
       <ul>
-      <li><a href="Homepage.php">home</a></li>
-        <li><a href="Aboutus.php">About Us</a></li>
-		    <li><a href="ContactUs.php">Contact Us</a></li>
+        <li><a  href="Homepage.php">Home</a></li>
+        <li><a href="#">About Us</a></li>
+		<li><a href="#">Contact Us</a></li>
         <li><a href="addPrescription.php">Online Pharamacy Services</a></li>
-        <li><a class="active" href="login.php">Log Out</a></li>  
+        <li><a href="logout.php">Log Out</a></li>        
       </ul>
     </nav>
      <!--sidebar start-->
@@ -82,28 +82,29 @@ if (isset($_POST['submit'])){
     <label>Name</label>
     <input type="text" class="form-control" 
     placeholder="Enter your name" 
-    name="name" autocomplete="off">
+    name="name" pattern="[A-Za-z]+"
+    required>
 </div>
 
 <div class="form-group">
     <label>Pharmacist Name</label>
     <input type="text" class="form-control" 
     placeholder="Enter pharmacist name" 
-    name="pharmacist" autocomplete="off">
+    name="pharmacist"required >
 </div>
 
 <div class="form-group">
     <label>Item Description</label>
     <input type="text" class="form-control" 
     placeholder="Description" 
-    name="description" autocomplete="off">
+    name="description"required >
 </div>
 
 <div class="form-group">
     <label>Issued Date</label>
     <input type="date" class="form-control" 
     placeholder="YYYY/MM/DD" 
-    name="issueddate">
+    name="issueddate"required>
 </div>
 
 <div class="form-group">
@@ -117,7 +118,7 @@ if (isset($_POST['submit'])){
     <label>Amount</label>
     <input type="text" class="form-control" 
     placeholder="Type the amount"  
-    name="amount">
+    name="amount"required>
 </div>
   <button type="submit" 
   class="btn btn-primary" name="submit">Submit</button>
