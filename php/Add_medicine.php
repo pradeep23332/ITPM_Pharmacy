@@ -92,6 +92,7 @@ if (isset($_POST['submit'])){
             <label><b> Medicine Name</b> </label><br/>
             <input type="text" class="form-control" 
             placeholder="Enter Medicine Name" name ="name" 
+            pattern="[A-Za-z]+"
              required>
             </div><br/>
 
