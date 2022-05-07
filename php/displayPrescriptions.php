@@ -196,12 +196,13 @@
 
                 
 
-               <!--<h5 style="color:#00b395">No. Of Prescription Records: <?php //echo $no;?></h5> -->
+               <h5 style="color:#00b395">No. Of Prescription Records: <?php echo $no;?></h5> 
                </div><br><br>
 
                 <form action="prescriptionExcel.php" method="POST">
                    &nbsp;  <input type="submit" name="export_excelPrescription" class="btn btn-success" value="Export to Excel">                                
-                </form>
+                </form><br>
+                &nbsp;&nbsp;<button class="btn btn-primary my-9"><a href="prescription_report.php"class="text-light" style="text-decoration:none;">Generate PDF Report</a> </button>
 
 
              </div>
