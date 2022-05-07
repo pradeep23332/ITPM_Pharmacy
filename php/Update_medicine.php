@@ -102,24 +102,24 @@ if (isset($_POST['submit'])){
            <div class="form-group">
             <label> <b>Medicine Name </b></label><br/>
             <input type="text" class="form-control" 
-            placeholder="Enter Medicine Name" name ="name" value=<?php echo $name;?> >
+            placeholder="Enter Medicine Name" name ="name" pattern="[A-Za-z]+"  value=<?php echo $name;?> required/>
             </div><br/>
 
             <div class="form-group">
             <label><b> Quantity </b></label><br/>
             <input type="text" class="form-control" 
-            placeholder="Enter Quentity" name ="quantity" value=<?php echo $quantity;?>>
+            placeholder="Enter Quentity" name ="quantity"  value=<?php echo $quantity;?> required/>
             </div><br/>
 
             <div class="form-group">
             <label><b>Manufacture Date </b> </label><br/>
-            <input type="date" class="form-control"name="manufacture" value=<?php echo $manufacture;?>>
+            <input type="date" class="form-control"name="manufacture" value=<?php echo $manufacture;?> required/>
            </div>
            <br/>
 
            <div class="form-group">
             <label><b>Expiry Date</b>  </label><br/>
-            <input type="date" class="form-control"name="expiry" value=<?php echo $expiry;?> >
+            <input type="date" class="form-control"name="expiry"  value=<?php echo $expiry;?> required/>
             </div>
            
 
@@ -128,16 +128,16 @@ if (isset($_POST['submit'])){
             <div class="form-group">
             <label> <b>Brand </b></label><br/>
             <input type="text" class="form-control" 
-            placeholder="Brand Name" name ="brand" value=<?php echo $brand;?>>
+            placeholder="Brand Name" name ="brand" value=<?php echo $brand;?> required/>
             </div>
             <br/>
 
             
             <div class="form-group ">
             <label> <b>Medicine Type </b></label><br/>  
-               <select class="form-select" name="type" value=<?php echo $type;?>>
+               <select class="form-select" name="type"  required>
+               <?php echo "<option value='". $type."'>" .$type ."</option>"; ?>
                   
-                  <option selected>Choose Type</option>
                   <option value="Tablet">Tablet</option>
                   <option value="Syrup">Syrup</option>
                   <option value="Cream">Cream</option>
