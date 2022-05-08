@@ -195,6 +195,9 @@
                     <input type="submit" name="export_excelSupplier" class="btn btn-success" value="Export to Excel">                                
                 </form>
 
+                </form><br>
+                &nbsp;<button class="btn btn-secondary"><a href="supplier_report.php"class="text-light" style="text-decoration:none;">Generate PDF Report</a></button>
+
 
              
 

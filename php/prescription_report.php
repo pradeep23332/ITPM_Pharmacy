@@ -12,10 +12,10 @@ $pdf =  new FPDF();
 $pdf->AddPage('L','A3',0);
 $pdf->SetFont('Times','B',12);
 $pdf->SetFont('Arial','B',14);
-$pdf->Cell(276,5,'Prescription info Document',0,0,'C');
+$pdf->Cell(276,5,'Prescription Info Document',0,0,'C');
 $pdf->Ln();
 $pdf->SetFont('Times','',14);
-$pdf->Cell(276,10,'Prescription  Records',0,0,'C');
+$pdf->Cell(276,10,'Prescription Records',0,0,'C');
 $pdf->Ln(20);
 
 
