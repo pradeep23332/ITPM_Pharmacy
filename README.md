@@ -2,10 +2,10 @@
 This is pharmacy management system for Healthcare pharmacy. With this pandemic situation most people practice to shop via online. According to our studies we decided to develop website for pharmacy management. In this website Normal customers can simply view website and there is a option upload prescription. Then admin can view all the prescriptions and send medicine to the customers. Payment will be done by cash on delivery Additionally, there are four functions which are medicine management staff management, supply management and sales management. Staff members are the one who manage the website. Administrator can add, edit, view and delete medicine, staff members, suppliers and sales. 
 
 # Functions
-1. Staff Management- Thathsarani D.M.T. (IT20119744)
-2. Medicine Management - K.A.P.W. Hettiarachchi (IT20128654)
-3. Prescription Management/Supplier Management - Ashan Zoysa (IT20037024)
-4. Sales Management - R.A.Y.C. Wijesekara (IT20140748)
+1. Staff Management- 
+2. Medicine Management -
+3. Prescription Management/Supplier Management - 
+4. Sales Management - 
 
 To Run The Project
   1. Download XAMPP
